@@ -1,0 +1,1 @@
+(()=>{const b=document.getElementById('backTop');const sync=()=>{b.hidden=window.scrollY<400};addEventListener('scroll',sync,{passive:true});sync();b.addEventListener('click',()=>{window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});});})();

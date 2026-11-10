@@ -1,0 +1,9 @@
+{
+  "name": "rebi-mediakit-v5",
+  "version": "5.0.0",
+  "private": true,
+  "description": "Bilingual static media kit for Szőke Rebeka / Sz_Becca",
+  "scripts": { "check": "node tools/check.cjs" },
+  "engines": { "node": ">=18" }
+}
+

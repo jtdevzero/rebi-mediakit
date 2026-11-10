@@ -1,0 +1,1 @@
+document.getElementById('igFilters').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;document.querySelectorAll('#igFilters button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));document.querySelectorAll('.ig-card').forEach(c=>c.hidden=b.dataset.category!=='Összes'&&c.dataset.category!==b.dataset.category);});
